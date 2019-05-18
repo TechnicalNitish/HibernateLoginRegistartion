@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>registrationservlet</servlet-name>
+  	<display-name>registrationservlet</display-name>
+  	<description></description>
+  	<servlet-class>reglogin.registrationservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Loginservlet</servlet-name>
+  	<display-name>Loginservlet</display-name>
+  	<description></description>
+  	<servlet-class>reglogin.Loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Forgetservlet</servlet-name>
+  	<display-name>Forgetservlet</display-name>
+  	<description></description>
+  	<servlet-class>reglogin.Forgetservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>resetservlet</servlet-name>
+  	<display-name>resetservlet</display-name>
+  	<description></description>
+  	<servlet-class>reglogin.resetservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>registrationservlet</servlet-name>
+  	<url-pattern>/registrationservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Loginservlet</servlet-name>
+  	<url-pattern>/Loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Forgetservlet</servlet-name>
+  	<url-pattern>/Forgetservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>resetservlet</servlet-name>
+  	<url-pattern>/resetservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
